@@ -23,6 +23,7 @@ namespace Priklad10
             int cislo2 = Convert.ToInt32(textBox2.Text);
             label1.Text = (cislo1 + cislo2).ToString();
             label2.Text = (cislo1 - cislo2).ToString();
+            label3.Text = (cislo1 * cislo2).ToString();
         }
     }
 }
