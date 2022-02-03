@@ -16,5 +16,12 @@ namespace Priklad10
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int cislo1 = Convert.ToInt32(textBox1.Text);
+            int cislo2 = Convert.ToInt32(textBox2.Text);
+            label1.Text = (cislo1 + cislo2).ToString();
+        }
     }
 }
